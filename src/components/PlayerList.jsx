@@ -5,7 +5,7 @@ import React from "react";
 
 const PlayerList = ({ players, editPlayer, deletePlayer, resetPlayers }) => {
   return (
-    <section className="p-5">
+    <section className="p-2 md:p-5">
       <div className="flex items-center justify-between mb-4">
         <h2 className="text-lg font-semibold">Players List ({players.length})</h2>
         <button

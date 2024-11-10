@@ -61,9 +61,9 @@ const App = () => {
   return (
     <section>
       <Header />
-      <section className="p-5 flex flex-col">
+      <section className="p-5 px-2 md:px-5 flex flex-col">
         <PlayerForm addPlayer={addPlayer} />
-        {/* <TeamConfig onUpdate={setPlayersPerTeam} />  */}
+        <TeamConfig onUpdate={setPlayersPerTeam} /> 
         <PlayerList
           players={players}
           editPlayer={editPlayer}
